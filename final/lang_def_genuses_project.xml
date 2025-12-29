@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BlockGenus name="local-var-object-Final" kind="local-variable" initlabel="initname"
+	 header-label="Final型の変数をつくり" footer-label="と名付ける" editable-label="yes" label-unique="yes" color="230 0 255">
+	<description>
+		<text>
+			disctiption
+		</text>
+	</description>
+		<BlockConnectors>
+			<BlockConnector label="初期値" connector-kind="socket" connector-type="object" connector-javatype="Final">
+				<DefaultArg genus-name="new-object-Final[]" label="Final"></DefaultArg>
+			</BlockConnector>
+		</BlockConnectors>
+	<Stubs>
+		<Stub stub-genus="callActionMethod">
+			<LangSpecProperties>
+				<LangSpecProperty key="vm-cmd-name" value="eval-local"></LangSpecProperty>
+				<LangSpecProperty key="scope" value="local"></LangSpecProperty>
+			</LangSpecProperties>
+		</Stub>
+		<Stub stub-genus="callGetterMethod">
+			<LangSpecProperties>
+				<LangSpecProperty key="vm-cmd-name" value="eval-local"></LangSpecProperty>
+				<LangSpecProperty key="scope" value="local"></LangSpecProperty>
+			</LangSpecProperties>
+		</Stub>
+		<Stub stub-genus="callBooleanMethod">
+			<LangSpecProperties>
+				<LangSpecProperty key="vm-cmd-name" value="eval-local"></LangSpecProperty>
+				<LangSpecProperty key="scope" value="local"></LangSpecProperty>
+			</LangSpecProperties>
+		</Stub>
+		<Stub stub-genus="callDoubleMethod">
+			<LangSpecProperties>
+				<LangSpecProperty key="vm-cmd-name" value="eval-local"></LangSpecProperty>
+				<LangSpecProperty key="scope" value="local"></LangSpecProperty>
+			</LangSpecProperties>
+		</Stub>
+		<Stub stub-genus="callStringMethod">
+			<LangSpecProperties>
+				<LangSpecProperty key="vm-cmd-name" value="eval-local"></LangSpecProperty>
+				<LangSpecProperty key="scope" value="local"></LangSpecProperty>
+			</LangSpecProperties>
+		</Stub>
+		<Stub stub-genus="callObjectMethod">
+			<LangSpecProperties>
+				<LangSpecProperty key="vm-cmd-name" value="eval-local"></LangSpecProperty>
+				<LangSpecProperty key="scope" value="local"></LangSpecProperty>
+			</LangSpecProperties>
+		</Stub>
+		<Stub stub-genus="getter">
+			<LangSpecProperties>
+				<LangSpecProperty key="vm-cmd-name" value="eval-local"></LangSpecProperty>
+				<LangSpecProperty key="scope" value="local"></LangSpecProperty>
+			</LangSpecProperties>
+		</Stub>
+		<Stub stub-genus="setter">
+			<LangSpecProperties>
+				<LangSpecProperty key="vm-cmd-name" value="eval-setlocal"></LangSpecProperty>
+				<LangSpecProperty key="scope" value="local"></LangSpecProperty>
+			</LangSpecProperties>
+		</Stub>
+	</Stubs>
+	<LangSpecProperties>
+		<LangSpecProperty key="scope" value="local"></LangSpecProperty>
+		<LangSpecProperty key="type" value="object"></LangSpecProperty>
+		<LangSpecProperty key="is-owned-by-breed" value="yes"></LangSpecProperty>
+		<LangSpecProperty key="is-monitorable" value="yes"></LangSpecProperty>
+	</LangSpecProperties>
+	<ClassMethods>
+		<ClassName name="Turtle">
+		</ClassName>
+		<ClassName name="Final">
+			<Method>
+				<MethodProperty name="new-new-object-Final[]" modifer="public" returnType="object" returnJavaType="Final">
+				</MethodProperty>
+			</Method>
+			<Method>
+				<MethodProperty name="start" modifer="public" returnType="void" returnJavaType="void">
+				</MethodProperty>
+			</Method>
+		</ClassName>
+	</ClassMethods>
+	<JavaType>Final</JavaType>
+<SuperClassName>Turtle</SuperClassName>
+</BlockGenus>
+
+<BlockGenus name="new-object-Final[]" editable-label="yes" kind="function" initlabel="null" header-label="新しく"  footer-label="を作る" color="16 240 27">
+	<BlockConnectors>
+		<BlockConnector connector-kind="plug" connector-type="object"></BlockConnector>
+	</BlockConnectors>
+	<LangSpecProperties>
+		<LangSpecProperty key="vm-cmd-name" value="new-object"></LangSpecProperty>
+		<LangSpecProperty key="stack-type" value="breed"></LangSpecProperty>
+	</LangSpecProperties>
+</BlockGenus>
+<BlockGenus name="start[]" kind="command" initlabel="start[]" color="255 0 0">
+	<JavaLabel>start[]</JavaLabel>
+	<JavaType>void</JavaType>
+	<BlockConnectors>
+	</BlockConnectors>
+	<LangSpecProperties>
+		<LangSpecProperty key="vm-cmd-name" value="start[]"></LangSpecProperty>
+		<LangSpecProperty key="stack-type" value="breed"></LangSpecProperty>
+	</LangSpecProperties>
+</BlockGenus>
+
+
